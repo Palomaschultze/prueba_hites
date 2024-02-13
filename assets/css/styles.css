@@ -1,0 +1,62 @@
+
+body{
+    margin: 0%;
+}
+
+/* Navbar */
+#img-nav{
+    max-width: 100%;
+}
+
+/* Footer */
+#img-footer{
+    max-width: 100%;
+}
+
+/* Banner principal */
+.bannerHome {
+    background-color: #e3e3ec;
+}
+@media (max-width: 767.98px) {
+    .bannerHome {
+        background-color: transparent !important; /* Hace que el fondo sea transparente en pantallas pequeñas */
+    }
+}
+.btn-custom {
+    font-size: 0.6rem !important; 
+}
+
+/* Estilos de seccion calzado y accesorio */
+#calzadoYAccesorios{
+    /* font-family: Unbounded,cursive; */
+    color: #1343c3;
+}
+#img-calzados {
+    position: absolute; 
+    right: 0;
+    margin: auto;
+    max-width: 60%;
+    z-index: -1;
+}
+.seccion-pequena{
+    background-color: #1343c3;
+    color: white;
+    line-height: 1.2;
+    box-shadow: -8px 8px 10px -5px rgba(0,0,0,0.5);
+}
+.seccion-pequena a {
+    color: inherit; /* Mantener el color del texto del padre */
+    text-decoration: none; /* Eliminar el subrayado */
+}
+.seccion-pequena a:hover {
+    color: white; /* Cambiar el color del texto a blanco al hacer hover */
+}
+.seccion-pequena a:visited {
+    color: inherit; /* Mantener el color del texto del padre cuando el enlace ha sido visitado */
+}
+.seccion-pequena p {
+    margin-bottom: 0;
+}
+.row.align-items-center {
+    height: 100%; /* Establece la altura del contenedor */
+}
